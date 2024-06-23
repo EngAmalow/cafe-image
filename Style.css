@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Header span{
+  color: #a27b5c;
+}
+div .connect{
+    background-color: white;
+}
+.Header i{
+    display: none;
+}
+.Header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+   
+}
+.Header ul{
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.Header button{
+    
+    font-size: 30px;
+}
+.orderbtn{
+    background-color: #a27b5c;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    font-size: 6px;
+}
+.signinBtn{
+     background-color: transparent;
+    padding: 10px 30px;
+    font-size: 6px;
+    border: 2px #a27b5c solid ;
+    color: #a27b5c;
+    margin-left: 30px;
+}
+.Main{
+    height: 800px;
+    
+    background-color: #ede3d8;
+    text-align: center;
+    font-size: 30px;
+}
+.Main p{
+    text-align: center;
+    font-size: 16px;
+}
+.Main .month{
+     text-align: start;
+     padding-left: 20px;
+     color: #454343;
+     font-size: 9px;
+     padding-top: 19px;
+}
+.Main img{
+    padding-top: 20px;
+    border-radius:  20px;
+ 
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;    
+}
+
+ .H hr{
+    background-color: rgb(124, 114, 114);
+    padding: 0.5px;
+    margin: 30px;
+ }
+.group img{
+    margin: 20px;
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+} 
+.group p{
+    
+    color: #454343;
+    text-align: start;
+     color: #454343;
+     font-size: 20px;
+     font-weight: bold;
+     padding-top: 90px;
+     padding-right: 500px;
+}
+
+
+
+
+
+.qeybta img{
+    margin: 20px;
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+}
+.qeybta {
+    display: flex;
+    justify-content: space-between;
+}
+.qeybta p{
+    color: #454343;
+    text-align: start;
+     color: #454343;
+     font-size: 20px;
+     font-weight: bold;
+     padding-top: 90px;
+     padding-right: 500px ;
+}
+
+
+
+
+.qeybta1{
+    display: flex;
+    justify-content: space-between;
+}
+.qeybta1 img{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    padding: 10px;
+}
+.qeybta1 p{
+    color: #454343;
+    text-align: start;
+     color: #454343;
+     font-size: 20px;
+     font-weight: bold;
+     padding-top: 90px;
+     padding-right: 500px ;
+}
+
+
+
+
+
+.qeybta3{
+    display: flex;
+    justify-content: space-between;
+}
+.qeybta3 img{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    padding: 10px;
+}
+.qeybta3 p{
+    color: #454343;
+    text-align: start;
+     color: #454343;
+     font-size: 20px;
+     font-weight: bold;
+     padding-top: 90px;
+     padding-right: 500px ;
+}
+
+
+
+
+
+.qeybta4{
+    display: flex;
+    justify-content: space-between;
+}
+.qeybta4 img{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    padding: 10px;
+}
+.qeybta4 p{
+    color: #454343;
+    text-align: start;
+     color: #454343;
+     font-size: 20px;
+     font-weight: bold;
+     padding-top: 90px;
+     padding-right: 500px ;
+
+}
+
+
+
+
+
+.qeybta5{
+    display: flex;
+    justify-content: space-between;
+}
+.qeybta5 img{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    padding: 10px;
+}
+.qeybta5 p{
+    color: #454343;
+    text-align: start;
+     color: #454343;
+     font-size: 20px;
+     font-weight: bold;
+     padding-top: 90px;
+     padding-right: 500px ;
+}
+ 
+
+
+
+
+
+
+
+
+
+.qeybta6{
+    padding: 30px  ;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 3xpx;
+}
+.qeybta6 span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.qeybta6 .h22{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+padding-bottom: 20px;
+}
+ 
+.Yuu{
+    text-align: center;
+    border: 1px #454343 solid;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    margin-left: 580px;
+    margin-right: 580px;
+}
+
+
+
+
+
+.qeybta7{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.qeybta7 i{
+    font-size: 30px;
+    display: flex;
+    gap: 3px;
+    list-style: none;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .Header{
+        padding: 20px;
+    }
+    .Header ul{  
+        display: none;
+       
+    }
+    .btn{
+        display: none;
+    }
+    .Header i{
+        display: block;
+        font-size: 40px;
+    }
+    .Main h1{
+        font-size: 50px;
+    }
+    .Main p{
+        font-size: 25px;
+    }
+    .Main img{
+        width: 330px;
+        height: 330px;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+ .connect {
+    flex-direction: column;
+    font-size: 6px;
+    padding-top: 10px;
+
+ }
+ .group{
+    font-size: 6px;
+ }
+ 
+ 
+}
